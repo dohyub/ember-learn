@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('login-ui');
+  this.route('sing-up');
 });
 
 export default Router;

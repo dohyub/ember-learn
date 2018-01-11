@@ -1,0 +1,23 @@
+<div class="ui center aligned container">
+  <div class="ui two column middle aligned very relaxed stackable centered grid">
+    <div class="column">
+      <h2>sign-up</h2>
+      <form class="ui form">
+        <div class="field">
+          <label>E-mail</label>
+          {{input type="text" class="userName" name="userName" placeholder="e-mail"}}
+        </div>
+        <div class="field">
+          <label>Password</label>
+          {{input type="password" class="password" name="password" placeholder="password"}}
+        </div>
+        <div class="field">
+        </div>
+        {{#link-to 'login-ui' class="button"}}
+          <button class="ui negative basic button" type="submit">Cancel</button>
+        {{/link-to}}
+        <button class="ui primary basic button" type="submit">Create</button>
+      </form>
+    </div>
+  </div>
+</div>
